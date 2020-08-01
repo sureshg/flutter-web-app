@@ -1,0 +1,35 @@
+name: Dart CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron: 0 0 * * 0
+
+jobs:
+  test:
+    name: Dart Test
+
+    strategy:
+      fail-fast: true
+      matrix:
+        os:
+          - ubuntu-latest
+
+    runs-on: ${{ matrix.os }}
+
+    container:
+      image:  google/dart:latest
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      - name: Check version
+        if: success()
+        run: |
+          dart --version
+          pub version
