@@ -22,7 +22,7 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     container:
-      image:  google/dart:latest
+      image:  google/dart:dev
 
     steps:
       - name: Check out the repo

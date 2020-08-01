@@ -1,4 +1,4 @@
-# flutter_web_app
+# Flutter web demo app.
 
 git remote add origin git@github.com:sureshg/flutter-web-app.git
 
@@ -23,3 +23,18 @@ https://github.com/google/dart-basics/blob/master/.github/workflows/dart.yml
 https://github.com/flutter/gallery/blob/master/.github/workflows/unit.yml
 https://github.com/leisim/dartx/blob/master/.github/workflows/dartx.yml
 https://github.com/rrousselGit/river_pod/blob/master/.github/workflows/build.yml
+
+
+https://hub.docker.com/r/google/dart
+https://hub.docker.com/r/google/dart-runtime
+https://github.com/dart-lang/dart_docker#dart_docker
+
+https://hub.docker.com/r/cirrusci/flutter
+
+
+https://github.com/marketplace/actions/flutter-action
+
+https://github.com/DanTup/dart-native-executables/blob/master/.github/workflows/main.yml
+https://blog.dantup.com/2019/11/easily-compiling-dart-to-native-executables-for-windows-linux-macos-with-github-actions/
+
+https://github.com/sureshg/dart-native-sample
