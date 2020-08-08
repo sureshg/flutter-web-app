@@ -22,6 +22,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.2"
+  archive:
+    dependency: transitive
+    description:
+      name: archive
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.13"
   args:
     dependency: transitive
     description:
@@ -35,7 +42,14 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.4.2"
+    version: "2.5.0-nullsafety"
+  barcode:
+    dependency: transitive
+    description:
+      name: barcode
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.16.1"
   basics:
     dependency: "direct main"
     description:
@@ -49,7 +63,7 @@ packages:
       name: boolean_selector
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0"
+    version: "2.1.0-nullsafety"
   build:
     dependency: transitive
     description:
@@ -112,14 +126,14 @@ packages:
       name: characters
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0-nullsafety"
+    version: "1.1.0-nullsafety.2"
   charcode:
     dependency: transitive
     description:
       name: charcode
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.3"
+    version: "1.2.0-nullsafety"
   charts_common:
     dependency: transitive
     description:
@@ -154,7 +168,7 @@ packages:
       name: clock
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.1"
+    version: "1.1.0-nullsafety"
   code_builder:
     dependency: transitive
     description:
@@ -168,7 +182,7 @@ packages:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.15.0-nullsafety"
+    version: "1.15.0-nullsafety.2"
   color:
     dependency: "direct main"
     description:
@@ -245,7 +259,7 @@ packages:
       name: fake_async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "1.1.0-nullsafety"
   file:
     dependency: transitive
     description:
@@ -314,6 +328,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.5.1"
+  flutter_spinkit:
+    dependency: "direct main"
+    description:
+      name: flutter_spinkit
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.1.2+1"
+  flutter_svg:
+    dependency: "direct main"
+    description:
+      name: flutter_svg
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.18.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -387,6 +415,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.1.4"
+  image:
+    dependency: transitive
+    description:
+      name: image
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.14"
   image_picker:
     dependency: "direct main"
     description:
@@ -464,20 +499,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
-  logger:
-    dependency: "direct main"
-    description:
-      name: logger
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.9.2"
   logging:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: logging
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.11.4"
+  lottie:
+    dependency: "direct main"
+    description:
+      name: lottie
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.1"
   markdown:
     dependency: "direct main"
     description:
@@ -491,16 +526,16 @@ packages:
       name: matcher
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.8"
+    version: "0.12.10-nullsafety"
   meta:
     dependency: "direct main"
     description:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.3.0-nullsafety"
+    version: "1.3.0-nullsafety.2"
   mime:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: mime
       url: "https://pub.dartlang.org"
@@ -554,7 +589,7 @@ packages:
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.7.0"
+    version: "1.8.0-nullsafety"
   path_drawing:
     dependency: transitive
     description:
@@ -597,6 +632,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+  pdf:
+    dependency: "direct main"
+    description:
+      name: pdf
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.10.0"
   pedantic:
     dependency: "direct dev"
     description:
@@ -655,6 +697,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.4.0"
+  printing:
+    dependency: "direct main"
+    description:
+      name: printing
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.5.0"
   process:
     dependency: transitive
     description:
@@ -683,6 +732,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.5"
+  qr:
+    dependency: transitive
+    description:
+      name: qr
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.3.0"
   quiver:
     dependency: transitive
     description:
@@ -718,6 +774,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.5.1"
+  rsocket:
+    dependency: "direct main"
+    description:
+      name: rsocket
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.0"
+  rxdart:
+    dependency: "direct main"
+    description:
+      name: rxdart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.24.1"
   shared_preferences:
     dependency: "direct main"
     description:
@@ -785,14 +855,14 @@ packages:
       name: source_span
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.7.0"
+    version: "1.8.0-nullsafety"
   stack_trace:
     dependency: transitive
     description:
       name: stack_trace
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.9.5"
+    version: "1.10.0-nullsafety"
   state_notifier:
     dependency: transitive
     description:
@@ -806,7 +876,7 @@ packages:
       name: stream_channel
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0"
+    version: "2.1.0-nullsafety"
   stream_transform:
     dependency: transitive
     description:
@@ -820,21 +890,21 @@ packages:
       name: string_scanner
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.5"
+    version: "1.1.0-nullsafety"
   term_glyph:
     dependency: transitive
     description:
       name: term_glyph
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "1.2.0-nullsafety"
   test_api:
     dependency: transitive
     description:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.17"
+    version: "0.2.19-nullsafety"
   time:
     dependency: transitive
     description:
@@ -869,7 +939,7 @@ packages:
       name: typed_data
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.3.0-nullsafety"
+    version: "1.3.0-nullsafety.2"
   url_launcher:
     dependency: "direct main"
     description:
@@ -905,13 +975,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.2"
+  utf:
+    dependency: transitive
+    description:
+      name: utf
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.9.0+5"
   vector_math:
     dependency: transitive
     description:
       name: vector_math
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0-nullsafety"
+    version: "2.1.0-nullsafety.2"
   video_player:
     dependency: "direct main"
     description:
@@ -948,7 +1025,7 @@ packages:
     source: hosted
     version: "1.1.0"
   webview_flutter:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: webview_flutter
       url: "https://pub.dartlang.org"
@@ -976,5 +1053,5 @@ packages:
     source: hosted
     version: "2.2.1"
 sdks:
-  dart: ">=2.9.0-18.0 <2.9.0"
-  flutter: ">=1.17.0 <2.0.0"
+  dart: ">=2.10.0-0.0.dev <2.10.0"
+  flutter: ">=1.18.0-6.0.pre <2.0.0"

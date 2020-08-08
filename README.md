@@ -38,3 +38,14 @@ https://github.com/DanTup/dart-native-executables/blob/master/.github/workflows/
 https://blog.dantup.com/2019/11/easily-compiling-dart-to-native-executables-for-windows-linux-macos-with-github-actions/
 
 https://github.com/sureshg/dart-native-sample
+
+
+Lottie Course - https://lottiefiles.com/course
+
+https://systemuicons.com/
+
+[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kscript-template/generate)
+
+- Native HTML Integration.
+https://github.com/masewo/flutter_svg_web_example/blob/master/lib/platform_svg.dart
+https://github.com/rodydavis/native_color_picker/blob/master/lib/src/web.dart
