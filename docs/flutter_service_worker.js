@@ -5,17 +5,16 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "index.html": "8db76226d8fd0a42bd50f0c6d7a9488f",
 "/": "8db76226d8fd0a42bd50f0c6d7a9488f",
-"main.dart.js": "2f36ec6540abc94849ac2f34e9e03380",
+"main.dart.js": "52cb2f1b88aacac5dd26a57f383618eb",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "997ef207806749c198d0ca9c882fd1a5",
 "assets/AssetManifest.json": "0d266ffbe90dae02458487c9d33b7373",
-"assets/NOTICES": "8a22627dd2ec9f0e462ab5243f103f0b",
+"assets/NOTICES": "7acc8d35e9798c06a9da95d18e7a51f4",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
-"assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25"
 };
 
@@ -33,8 +32,8 @@ const CORE = [
 self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
-      // Provide a 'reload' param to ensure the latest version is downloaded.
-      return cache.addAll(CORE.map((value) => new Request(value, {'cache': 'reload'})));
+      return cache.addAll(
+        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
     })
   );
 });
